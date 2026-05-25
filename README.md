@@ -12,7 +12,7 @@ Quá trình từ lúc nhập câu bệnh án thô đến khi AI đưa ra quyết
 graph TD
     A[Văn bản Y khoa & 2 Thuốc] -->|Input| B(SpaCy NLP Engine)
     
-    subgraph Tiền Xử Lý NLP (Preprocessing)
+    subgraph preprocessing [Tiền Xử Lý NLP - Preprocessing]
     B --> C1[Trích xuất Đồ thị Phụ thuộc <br/> Dependency Parsing]
     B --> C2[Căn chỉnh Thực thể <br/> Entity Alignment]
     B --> C3[Gán nhãn Từ vựng <br/> Tokenization & Vocab]
@@ -22,7 +22,7 @@ graph TD
     C2 -->|Pos1, Pos2, Segments| D
     C3 -->|Token IDs| D
 
-    subgraph Cỗ máy Seg-GCRN
+    subgraph seg_model [Cỗ máy Seg-GCRN]
     D -->|Shift +120 & Clamp| E[Word & Position Embeddings]
     E --> F[Mạng tích chập Đồ thị <br/> GCN Layers]
     F --> G[Mạng chuỗi thời gian <br/> Bi-LSTM]

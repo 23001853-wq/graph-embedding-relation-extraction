@@ -1,0 +1,16 @@
+Phân công công việc
+
+Nguyễn Hữu Duy – 23001853 (Trưởng nhóm)
+
+Đề xuất định hướng triển khai và xây dựng kế hoạch thực hiện đề tài.
+Phụ trách thu thập, phân tích và tiền xử lý bộ dữ liệu DDI Extraction 2013.
+Xây dựng pipeline xử lý dữ liệu đầu vào: đọc XML, chuẩn hóa dữ liệu, trích xuất cặp thực thể thuốc và xây dựng dependency graph.
+Thiết kế quy trình thực nghiệm, tổ chức đánh giá kết quả mô hình trên các tập dữ liệu.
+Tích hợp hệ thống, kiểm thử tổng thể và tổng hợp nội dung báo cáo, slide thuyết trình.
+
+Lô Văn Quynh – 22001282
+
+Nghiên cứu kiến trúc mô hình Seg-GCRN cho bài toán trích xuất tương tác thuốc–thuốc.
+Triển khai mô hình, huấn luyện và tinh chỉnh các siêu tham số.
+Thực hiện các kỹ thuật tối ưu như weighted loss và temperature scaling.
+Phối hợp đánh giá kết quả mô hình và phân tích một số trường hợp dự đoán tiêu biểu.
